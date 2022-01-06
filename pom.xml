@@ -21,13 +21,13 @@
 
       <groupId>com.fortytwobinary</groupId>
       <artifactId>slimboot-archetype</artifactId>
-      <version>0.1.0-SNAPSHOT</version>
+      <version>0.1.0</version>
       <packaging>maven-archetype</packaging>
 
 	  <name>Slimboot Archetype</name>
 	  <description>This archetype creates a lightweight Spring Boot API</description>
     <inceptionYear>2022</inceptionYear>
-
+    <url>https://github.com/fortytwobinary/slimboot-archetype</url>
         <licenses>
             <license>
                 <name>Apache License, Version 2.0</name>
@@ -54,14 +54,14 @@
 
         <distributionManagement>
             <repository>
-                <id>ftb-releases</id>
+                <id>release</id>
                 <name>maven-releases</name>
-                <url></url>
+                <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
             </repository>
             <snapshotRepository>
-                <id>ftb-snapshots</id>
+                <id>snapshot</id>
                 <name>maven-snapshots</name>
-                <url></url>
+                <url>https://nexus.fortytwobinary.com/repository/maven-snapshots/</url>
             </snapshotRepository>
         </distributionManagement>
 
@@ -199,6 +199,20 @@
                                 </execution>
                             </executions>
                         </plugin>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-gpg-plugin</artifactId>
+                            <version>3.0.1</version>
+                            <executions>
+                              <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                  <goal>sign</goal>
+                                </goals>
+                              </execution>
+                            </executions>
+                         </plugin>
                     </plugins>
                 </build>
             </profile>
