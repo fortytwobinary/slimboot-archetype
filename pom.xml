@@ -126,7 +126,9 @@
                                 <exclude>README.md</exclude>
                                 <exclude>mvnw*</exclude>
                                 <exclude>.mvn/**</exclude>
+                                <exclude>.settings.xml</exclude>
                                 <exclude>src/main/archetype/**</exclude>
+                                <exclude>src/main/resources/META-INF/maven/archetype-metadata.xml</exclude>
                                 <exclude>**/target/**</exclude>
                             </excludes>
                         </licenseSet>
