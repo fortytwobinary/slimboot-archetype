@@ -31,23 +31,10 @@
 				<include>**/*.java</include>
 			</includes>
 		</fileSet>
-		<fileSet filtered="true" packaged="true" encoding="UTF-8">
-			<directory>src/generated/java</directory>
-			<includes>
-				<include>**/*.java</include>
-			</includes>
-		</fileSet>
 		<fileSet filtered="true" encoding="UTF-8">
 			<directory>src/main/resources</directory>
 			<includes>
 				<include>**/*</include>
-			</includes>
-		</fileSet>
-		<fileSet filtered="true" encoding="UTF-8">
-			<directory>src/main/datasonnet</directory>
-			<includes>
-				<include>**/*.ds</include>
-				<include>**/*.jsonnet</include>
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -66,6 +53,13 @@
 			<directory>.</directory>
 			<includes>
 				<include>README.md</include>
+				<include>.gitignore</include>
+				<include>docker-compose.yml</include>
+				<include>Dockerfile</include>
+				<include>LICENSE</include>
+				<include>mvnw</include>
+				<include>mvnw.cmd</include>
+				<include>pom.xml</include>
 			</includes>
 		</fileSet>
 	</fileSets>
