@@ -5,12 +5,6 @@ provide design elements for microservices that will make up a larger system and 
 
 ## Configuration
 
-### Clone Project
-
-```bash
-git clone https://github.com/dlwhitehurst/slimboot.git
-```
-
 ### Configure Persistence
 This API uses JPA/Hibernate for application persistence. Use the docker-compose file in the 
 project directory to run a local instance of MySQL for testing. 

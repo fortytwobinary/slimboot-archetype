@@ -92,7 +92,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.dlwhitehurst.slimboot.main</mainClass>
+					<mainClass>${package}.main</mainClass>
 				</configuration>
 				<executions>
 					<execution>

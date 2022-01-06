@@ -8,10 +8,10 @@
 
 package ${package}.controller;
 
-import com.dlwhitehurst.slimboot.payload.PagedResponse;
-import com.dlwhitehurst.slimboot.model.Contact;
-import com.dlwhitehurst.slimboot.service.ContactService;
-import com.dlwhitehurst.slimboot.utils.AppConstants;
+import ${package}.payload.PagedResponse;
+import ${package}.model.Contact;
+import ${package}.service.ContactService;
+import ${package}.utils.AppConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -8,12 +8,12 @@
 
 package ${package}.service.impl;
 
-import com.dlwhitehurst.slimboot.payload.PagedResponse;
-import com.dlwhitehurst.slimboot.repository.ContactRepository;
-import com.dlwhitehurst.slimboot.utils.AppConstants;
-import com.dlwhitehurst.slimboot.model.Contact;
-import com.dlwhitehurst.slimboot.service.ContactService;
-import com.dlwhitehurst.slimboot.utils.AppUtils;
+import ${package}.payload.PagedResponse;
+import ${package}.repository.ContactRepository;
+import ${package}.utils.AppConstants;
+import ${package}.model.Contact;
+import ${package}.service.ContactService;
+import ${package}.utils.AppUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

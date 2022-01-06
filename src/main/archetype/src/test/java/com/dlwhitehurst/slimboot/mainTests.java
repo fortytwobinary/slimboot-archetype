@@ -6,7 +6,7 @@
  *
  */
 
-package com.dlwhitehurst.slimboot;
+package ${package};
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

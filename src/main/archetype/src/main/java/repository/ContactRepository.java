@@ -8,7 +8,7 @@
 
 package ${package}.repository;
 
-import com.dlwhitehurst.slimboot.model.Contact;
+import ${package}.model.Contact;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

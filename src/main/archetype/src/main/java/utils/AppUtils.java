@@ -8,7 +8,7 @@
 
 package ${package}.utils;
 
-import com.dlwhitehurst.slimboot.exception.ApiException;
+import ${package}.exception.ApiException;
 import org.springframework.http.HttpStatus;
 
 public class AppUtils {

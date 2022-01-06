@@ -8,8 +8,8 @@
 
 package ${package}.service;
 
-import com.dlwhitehurst.slimboot.payload.PagedResponse;
-import com.dlwhitehurst.slimboot.model.Contact;
+import ${package}.payload.PagedResponse;
+import ${package}.model.Contact;
 
 public interface ContactService {
 
