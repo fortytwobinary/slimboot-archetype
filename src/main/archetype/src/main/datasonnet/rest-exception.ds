@@ -1,3 +1,0 @@
-{
-    '_messages': cml.header('CamelxRestOperationResult').messages
-}
