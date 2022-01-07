@@ -21,9 +21,6 @@ limitations under the License.
 	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	name="quickstart">
-	<requiredProperties>
-		<requiredProperty key="specificationUri"/>
-	</requiredProperties>
  	<fileSets>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
 			<directory>src/main/java</directory>
@@ -50,16 +47,19 @@ limitations under the License.
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" encoding="UTF-8">
-			<directory>.</directory>
+			<directory>data</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" encoding="UTF-8">
+			<directory/>
 			<includes>
 				<include>README.md</include>
 				<include>.gitignore</include>
 				<include>docker-compose.yml</include>
 				<include>Dockerfile</include>
 				<include>LICENSE</include>
-				<include>mvnw</include>
-				<include>mvnw.cmd</include>
-				<include>pom.xml</include>
 			</includes>
 		</fileSet>
 	</fileSets>
